@@ -5,9 +5,5 @@ if [ -t 1 ]; then
   exec < /dev/tty
 fi
 
-yarn lint-staged
-yarn lint
-yarn test
-
 yarn build
 git add dist

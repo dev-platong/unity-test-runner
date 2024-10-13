@@ -20,6 +20,7 @@
     "unicorn/prefer-module": "off",
     "i18n-text/no-en": "off", // for results-check
     "camelcase": "off", // for results-check
-    "import/no-unresolved": "off" // for results-check
+    "import/no-unresolved": "off", // for results-check
+    "no-console": "off"
   }
 }

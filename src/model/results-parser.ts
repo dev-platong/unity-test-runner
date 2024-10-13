@@ -1,8 +1,8 @@
-import * as core from '@actions/core';
 import * as fs from 'fs';
 import * as xmljs from 'xml-js';
 import { RunMeta, TestMeta } from './results-meta';
 import path from 'path';
+import { core } from '../core';
 
 const ResultsParser = {
   async parseResults(filepath): Promise<RunMeta> {
@@ -24,7 +24,6 @@ const ResultsParser = {
     const run = filedata['test-run'];
     const runMeta = new RunMeta(filename);
     const tests = ResultsParser.convertSuite(run['test-suite']);
-    core.debug(tests.toString());
 
     runMeta.total = Number(run._attributes.total);
     runMeta.failed = Number(run._attributes.failed);
@@ -79,11 +78,9 @@ const ResultsParser = {
     testMeta.duration = Number(duration);
 
     if (!failure) {
-      core.debug(`Skip test ${fullname} without failure data`);
       return testMeta;
     }
 
-    core.debug(`Convert data for test ${fullname}`);
     if (failure['stack-trace'] === undefined) {
       core.warning(`No stack trace for test case: ${fullname}`);
       return testMeta;
@@ -104,8 +101,6 @@ const ResultsParser = {
 
     if (output && output._cdata) {
       rawDetails.unshift(output._cdata);
-    } else {
-      core.debug(`No console output for test case: ${fullname}`);
     }
 
     testMeta.annotation = {

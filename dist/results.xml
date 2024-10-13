@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="25" result="Failed(Child)" total="25" passed="16" failed="9" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2024-10-12 04:56:21Z" end-time="2024-10-12 04:56:26Z" duration="4.3523083">
+  <test-suite type="TestSuite" id="1041" name="mix" fullname="mix" runstate="Runnable" testcasecount="25" result="Failed" site="Child" start-time="2024-10-12 04:56:21Z" end-time="2024-10-12 04:56:26Z" duration="4.352308" total="25" passed="16" failed="9" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1071" name="Tests.dll" fullname="C:/Users/kzgai/actions-runner/_work/mix/mix/Library/ScriptAssemblies/Tests.dll" runstate="Runnable" testcasecount="25" result="Failed" site="Child" start-time="2024-10-12 04:56:21Z" end-time="2024-10-12 04:56:26Z" duration="4.326048" total="25" passed="16" failed="9" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="1364" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1072" name="Monster" fullname="Monster" runstate="Runnable" testcasecount="18" result="Failed" site="Child" start-time="2024-10-12 04:56:21Z" end-time="2024-10-12 04:56:22Z" duration="0.808085" total="18" passed="9" failed="9" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1075" name="Entity" fullname="Monster.Entity" runstate="Runnable" testcasecount="4" result="Passed" start-time="2024-10-12 04:56:21Z" end-time="2024-10-12 04:56:22Z" duration="0.146536" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1058" name="MonsterStatusTest" fullname="Monster.Entity.MonsterStatusTest" classname="Monster.Entity.MonsterStatusTest" runstate="Runnable" testcasecount="4" result="Passed" start-time="2024-10-12 04:56:21Z" end-time="2024-10-12 04:56:22Z" duration="0.137637" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1062" name="AddPassiveTraitDtoTest_AddOneAdditionalCapacityTrait_Fail" fullname="Monster.Entity.MonsterStatusTest.AddPassiveTraitDtoTest_AddOneAdditionalCapacityTrait_Fail" methodname="AddPassiveTraitDtoTest_AddOneAdditionalCapacityTrait_Fail" classname="Monster.Entity.MonsterStatusTest" runstate="Runnable" seed="427765346" result="Passed" start-time="2024-10-12 04:56:21Z" end-time="2024-10-12 04:56:22Z" duration="0.070881" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1061" name="AddPassiveTraitDtoTest_AddOneCapacityTrait_Fail" fullname="Monster.Entity.MonsterStatusTest.AddPassiveTraitDtoTest_AddOneCapacityTrait_Fail" methodname="AddPassiveTraitDtoTest_AddOneCapacityTrait_Fail" classname="Monster.Entity.MonsterStatusTest" runstate="Runnable" seed="173181099" result="Passed" start-time="2024-10-12 04:56:22Z" end-time="2024-10-12 04:56:22Z" duration="0.003887" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1059" name="AddPassiveTraitDtoTest_AddOneCapacityTrait_Success" fullname="Monster.Entity.MonsterStatusTest.AddPassiveTraitDtoTest_AddOneCapacityTrait_Success" methodname="AddPassiveTraitDtoTest_AddOneCapacityTrait_Success" classname="Monster.Entity.MonsterStatusTest" runstate="Runnable" seed="1902050876" result="Passed" start-time="2024-10-12 04:56:22Z" end-time="2024-10-12 04:56:22Z" duration="0.017090" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1060" name="AddPassiveTraitDtoTest_AddTwoAdditionalCapacityTrait_AddTwoCapacityTrait_Success" fullname="Monster.Entity.MonsterStatusTest.AddPassiveTraitDtoTest_AddTwoAdditionalCapacityTrait_AddTwoCapacityTrait_Success" methodname="AddPassiveTraitDtoTest_AddTwoAdditionalCapacityTrait_AddTwoCapacityTrait_Success" classname="Monster.Entity.MonsterStatusTest" runstate="Runnable" seed="1520468733" result="Passed" start-time="2024-10-12 04:56:22Z" end-time="2024-10-12 04:56:22Z" duration="0.002649" asserts="0">
+              <properties />
+            </test-case>
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestSuite" id="1073" name="UseCase" fullname="Monster.UseCase" runstate="Runnable" testcasecount="14" result="Failed" site="Child" start-time="2024-10-12 04:56:22Z" end-time="2024-10-12 04:56:22Z" duration="0.655223" total="14" passed="5" failed="9" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1074" name="Damage" fullname="Monster.UseCase.Damage" runstate="Runnable" testcasecount="5" result="Passed" start-time="2024-10-12 04:56:22Z" end-time="2024-10-12 04:56:22Z" duration="0.522877" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1052" name="MonsterDamageUseCaseTest" fullname="Monster.UseCase.Damage.MonsterDamageUseCaseTest" classname="Monster.UseCase.Damage.MonsterDamageUseCaseTest" runstate="Runnable" testcasecount="5" result="Passed" start-time="2024-10-12 04:56:22Z" end-time="2024-10-12 04:56:22Z" duration="0.518871" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1054" name="ActualMagicStrongAttackTest_AttackerMonsterHighMagicTraits_TargetMonsterHighDefense" fullname="Monster.UseCase.Damage.MonsterDamageUseCaseTest.ActualMagicStrongAttackTest_AttackerMonsterHighMagicTraits_TargetMonsterHighDefense" methodname="ActualMagicStrongAttackTest_AttackerMonsterHighMagicTraits_TargetMonsterHighDefense" classname="Monster.UseCase.Damage.MonsterDamageUseCaseTest" runstate="Runnable" seed="1281333071" result="Passed" start-time="2024-10-12 04:56:22Z" end-time="2024-10-12 04:56:22Z" duration="0.435186" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1053" name="ActualPhysicalLightAttackTest_AttackerMonsterTraitAllOne_TargetMonsterTraitAllZero" fullname="Monster.UseCase.Damage.MonsterDamageUseCaseTest.ActualPhysicalLightAttackTest_AttackerMonsterTraitAllOne_TargetMonsterTraitAllZero" methodname="ActualPhysicalLightAttackTest_AttackerMonsterTraitAllOne_TargetMonsterTraitAllZero" classname="Monster.UseCase.Damage.MonsterDamageUseCaseTest" runstate="Runnable" seed="755167131" result="Passed" start-time="2024-10-12 04:56:22Z" end-time="2024-10-12 04:56:22Z" duration="0.023549" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1057" name="ActualPhysicalMixedTraitsTest_AttackerBuffsTargetDebuffs" fullname="Monster.UseCase.Damage.MonsterDamageUseCaseTest.ActualPhysicalMixedTraitsTest_AttackerBuffsTargetDebuffs" methodname="ActualPhysicalMixedTraitsTest_AttackerBuffsTargetDebuffs" classname="Monster.UseCase.Damage.MonsterDamageUseCaseTest" runstate="Runnable" seed="539742391" result="Passed" start-time="2024-10-12 04:56:22Z" end-time="2024-10-12 04:56:22Z" duration="0.019074" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1055" name="ActualPhysicalStrongAttackTest_TargetHighDefense" fullname="Monster.UseCase.Damage.MonsterDamageUseCaseTest.ActualPhysicalStrongAttackTest_TargetHighDefense" methodname="ActualPhysicalStrongAttackTest_TargetHighDefense" classname="Monster.UseCase.Damage.MonsterDamageUseCaseTest" runstate="Runnable" seed="1233220621" result="Passed" start-time="2024-10-12 04:56:22Z" end-time="2024-10-12 04:56:22Z" duration="0.015748" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1056" name="ActualPhysicalWeakAttackTest_AttackerLowDamage" fullname="Monster.UseCase.Damage.MonsterDamageUseCaseTest.ActualPhysicalWeakAttackTest_AttackerLowDamage" methodname="ActualPhysicalWeakAttackTest_AttackerLowDamage" classname="Monster.UseCase.Damage.MonsterDamageUseCaseTest" runstate="Runnable" seed="1747736823" result="Passed" start-time="2024-10-12 04:56:22Z" end-time="2024-10-12 04:56:22Z" duration="0.011752" asserts="0">
+                <properties />
+              </test-case>
+            </test-suite>
+          </test-suite>
+          <test-suite type="TestFixture" id="1042" name="MonsterInteractableUseCaseTest" fullname="Monster.UseCase.MonsterInteractableUseCaseTest" classname="Monster.UseCase.MonsterInteractableUseCaseTest" runstate="Runnable" testcasecount="9" result="Failed" site="Child" start-time="2024-10-12 04:56:22Z" end-time="2024-10-12 04:56:22Z" duration="0.126756" total="9" passed="0" failed="9" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1050" name="UpdateNearestInteractableTarget_HighlightedMonsterIsAlwaysOne" fullname="Monster.UseCase.MonsterInteractableUseCaseTest.UpdateNearestInteractableTarget_HighlightedMonsterIsAlwaysOne" methodname="UpdateNearestInteractableTarget_HighlightedMonsterIsAlwaysOne" classname="Monster.UseCase.MonsterInteractableUseCaseTest" runstate="Runnable" seed="1267461653" result="Failed" label="Error" start-time="2024-10-12 04:56:22Z" end-time="2024-10-12 04:56:22Z" duration="0.094520" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[VContainer.VContainerException : Failed to resolve Monster.UseCase.MonsterInteractableUseCase : No such registration of type: Interactable.Service.InteractableService]]></message>
+                <stack-trace><![CDATA[  at VContainer.Internal.ReflectionInjector.CreateInstance (VContainer.IObjectResolver resolver, System.Collections.Generic.IReadOnlyList`1[T] parameters) [0x00071] in .\Library\PackageCache\jp.hadashikick.vcontainer@1.13.0\Runtime\Internal\ReflectionInjector.cs:51 
+  at VContainer.Internal.InstanceProvider.SpawnInstance (VContainer.IObjectResolver resolver) [0x00000] in .\Library\PackageCache\jp.hadashikick.vcontainer@1.13.0\Runtime\Internal\InstanceProviders\InstanceProvider.cs:21 
+  at VContainer.Container+<>c__DisplayClass12_0.<.ctor>b__1 () [0x00000] in .\Library\PackageCache\jp.hadashikick.vcontainer@1.13.0\Runtime\Container.cs:186 
+  at System.Lazy`1[T].ViaFactory (System.Threading.LazyThreadSafetyMode mode) [0x00043] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+  at System.Lazy`1[T].ExecutionAndPublication (System.LazyHelper executionAndPublication, System.Boolean useDefaultConstructor) [0x00022] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+  at System.Lazy`1[T].CreateValue () [0x00074] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+  at System.Lazy`1[T].get_Value () [0x0000a] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+  at VContainer.Container.Resolve (System.Type type) [0x00010] in .\Library\PackageCache\jp.hadashikick.vcontainer@1.13.0\Runtime\Container.cs:197 
+  at Monster.UseCase.MonsterInteractableUseCaseTest.UpdateNearestInteractableTarget_HighlightedMonsterIsAlwaysOne () [0x000f2] in C:\Users\kzgai\actions-runner\_work\mix\mix\Assets\Tests\Monster\UseCase\MonsterInteractableUseCaseTest.cs:244 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 ]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1043" name="UpdateNearestInteractableTarget_WithNoPreviousId_AndOneCurrentId" fullname="Monster.UseCase.MonsterInteractableUseCaseTest.UpdateNearestInteractableTarget_WithNoPreviousId_AndOneCurrentId" methodname="UpdateNearestInteractableTarget_WithNoPreviousId_AndOneCurrentId" classname="Monster.UseCase.MonsterInteractableUseCaseTest" runstate="Runnable" seed="423663" result="Failed" label="Error" start-time="2024-10-12 04:56:22Z" end-time="2024-10-12 04:56:22Z" duration="0.001853" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[VContainer.VContainerException : Failed to resolve Monster.UseCase.MonsterInteractableUseCase : No such registration of type: Interactable.Service.InteractableService]]></message>
+                <stack-trace><![CDATA[  at VContainer.Internal.ReflectionInjector.CreateInstance (VContainer.IObjectResolver resolver, System.Collections.Generic.IReadOnlyList`1[T] parameters) [0x00071] in .\Library\PackageCache\jp.hadashikick.vcontainer@1.13.0\Runtime\Internal\ReflectionInjector.cs:51 
+  at VContainer.Internal.InstanceProvider.SpawnInstance (VContainer.IObjectResolver resolver) [0x00000] in .\Library\PackageCache\jp.hadashikick.vcontainer@1.13.0\Runtime\Internal\InstanceProviders\InstanceProvider.cs:21 
+  at VContainer.Container+<>c__DisplayClass12_0.<.ctor>b__1 () [0x00000] in .\Library\PackageCache\jp.hadashikick.vcontainer@1.13.0\Runtime\Container.cs:186 
+  at System.Lazy`1[T].ViaFactory (System.Threading.LazyThreadSafetyMode mode) [0x00043] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+  at System.Lazy`1[T].ExecutionAndPublication (System.LazyHelper executionAndPublication, System.Boolean useDefaultConstructor) [0x00022] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+  at System.Lazy`1[T].CreateValue () [0x00074] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+  at System.Lazy`1[T].get_Value () [0x0000a] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+  at VContainer.Container.Resolve (System.Type type) [0x00010] in .\Library\PackageCache\jp.hadashikick.vcontainer@1.13.0\Runtime\Container.cs:197 
+  at Monster.UseCase.MonsterInteractableUseCaseTest.UpdateNearestInteractableTarget_WithNoPreviousId_AndOneCurrentId () [0x00064] in C:\Users\kzgai\actions-runner\_work\mix\mix\Assets\Tests\Monster\UseCase\MonsterInteractableUseCaseTest.cs:33 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 ]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1044" name="UpdateNearestInteractableTarget_WithOnePreviousId_AndNoCurrentId" fullname="Monster.UseCase.MonsterInteractableUseCaseTest.UpdateNearestInteractableTarget_WithOnePreviousId_AndNoCurrentId" methodname="UpdateNearestInteractableTarget_WithOnePreviousId_AndNoCurrentId" classname="Monster.UseCase.MonsterInteractableUseCaseTest" runstate="Runnable" seed="256560171" result="Failed" label="Error" start-time="2024-10-12 04:56:22Z" end-time="2024-10-12 04:56:22Z" duration="0.002536" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[VContainer.VContainerException : Failed to resolve Monster.UseCase.MonsterInteractableUseCase : No such registration of type: Interactable.Service.InteractableService]]></message>
+                <stack-trace><![CDATA[  at VContainer.Internal.ReflectionInjector.CreateInstance (VContainer.IObjectResolver resolver, System.Collections.Generic.IReadOnlyList`1[T] parameters) [0x00071] in .\Library\PackageCache\jp.hadashikick.vcontainer@1.13.0\Runtime\Internal\ReflectionInjector.cs:51 
+  at VContainer.Internal.InstanceProvider.SpawnInstance (VContainer.IObjectResolver resolver) [0x00000] in .\Library\PackageCache\jp.hadashikick.vcontainer@1.13.0\Runtime\Internal\InstanceProviders\InstanceProvider.cs:21 
+  at VContainer.Container+<>c__DisplayClass12_0.<.ctor>b__1 () [0x00000] in .\Library\PackageCache\jp.hadashikick.vcontainer@1.13.0\Runtime\Container.cs:186 
+  at System.Lazy`1[T].ViaFactory (System.Threading.LazyThreadSafetyMode mode) [0x00043] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+  at System.Lazy`1[T].ExecutionAndPublication (System.LazyHelper executionAndPublication, System.Boolean useDefaultConstructor) [0x00022] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+  at System.Lazy`1[T].CreateValue () [0x00074] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+  at System.Lazy`1[T].get_Value () [0x0000a] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+  at VContainer.Container.Resolve (System.Type type) [0x00010] in .\Library\PackageCache\jp.hadashikick.vcontainer@1.13.0\Runtime\Container.cs:197 
+  at Monster.UseCase.MonsterInteractableUseCaseTest.UpdateNearestInteractableTarget_WithOnePreviousId_AndNoCurrentId () [0x00062] in C:\Users\kzgai\actions-runner\_work\mix\mix\Assets\Tests\Monster\UseCase\MonsterInteractableUseCaseTest.cs:57 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 ]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1049" name="UpdateNearestInteractableTarget_WithOnePreviousId_AndOneCurrentIds_SameDistance" fullname="Monster.UseCase.MonsterInteractableUseCaseTest.UpdateNearestInteractableTarget_WithOnePreviousId_AndOneCurrentIds_SameDistance" methodname="UpdateNearestInteractableTarget_WithOnePreviousId_AndOneCurrentIds_SameDistance" classname="Monster.UseCase.MonsterInteractableUseCaseTest" runstate="Runnable" seed="478504448" result="Failed" label="Error" start-time="2024-10-12 04:56:22Z" end-time="2024-10-12 04:56:22Z" duration="0.002278" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[VContainer.VContainerException : Failed to resolve Monster.UseCase.MonsterInteractableUseCase : No such registration of type: Interactable.Service.InteractableService]]></message>
+                <stack-trace><![CDATA[  at VContainer.Internal.ReflectionInjector.CreateInstance (VContainer.IObjectResolver resolver, System.Collections.Generic.IReadOnlyList`1[T] parameters) [0x00071] in .\Library\PackageCache\jp.hadashikick.vcontainer@1.13.0\Runtime\Internal\ReflectionInjector.cs:51 
+  at VContainer.Internal.InstanceProvider.SpawnInstance (VContainer.IObjectResolver resolver) [0x00000] in .\Library\PackageCache\jp.hadashikick.vcontainer@1.13.0\Runtime\Internal\InstanceProviders\InstanceProvider.cs:21 
+  at VContainer.Container+<>c__DisplayClass12_0.<.ctor>b__1 () [0x00000] in .\Library\PackageCache\jp.hadashikick.vcontainer@1.13.0\Runtime\Container.cs:186 
+  at System.Lazy`1[T].ViaFactory (System.Threading.LazyThreadSafetyMode mode) [0x00043] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+  at System.Lazy`1[T].ExecutionAndPublication (System.LazyHelper executionAndPublication, System.Boolean useDefaultConstructor) [0x00022] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+  at System.Lazy`1[T].CreateValue () [0x00074] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+  at System.Lazy`1[T].get_Value () [0x0000a] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+  at VContainer.Container.Resolve (System.Type type) [0x00010] in .\Library\PackageCache\jp.hadashikick.vcontainer@1.13.0\Runtime\Container.cs:197 
+  at Monster.UseCase.MonsterInteractableUseCaseTest.UpdateNearestInteractableTarget_WithOnePreviousId_AndOneCurrentIds_SameDistance () [0x000b3] in C:\Users\kzgai\actions-runner\_work\mix\mix\Assets\Tests\Monster\UseCase\MonsterInteractableUseCaseTest.cs:210 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 ]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1051" name="UpdateNearestInteractableTarget_WithOnePreviousId_AndOneCurrentIds_SameId" fullname="Monster.UseCase.MonsterInteractableUseCaseTest.UpdateNearestInteractableTarget_WithOnePreviousId_AndOneCurrentIds_SameId" methodname="UpdateNearestInteractableTarget_WithOnePreviousId_AndOneCurrentIds_SameId" classname="Monster.UseCase.MonsterInteractableUseCaseTest" runstate="Runnable" seed="1265797465" result="Failed" label="Error" start-time="2024-10-12 04:56:22Z" end-time="2024-10-12 04:56:22Z" duration="0.002238" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[VContainer.VContainerException : Failed to resolve Monster.UseCase.MonsterInteractableUseCase : No such registration of type: Interactable.Service.InteractableService]]></message>
+                <stack-trace><![CDATA[  at VContainer.Internal.ReflectionInjector.CreateInstance (VContainer.IObjectResolver resolver, System.Collections.Generic.IReadOnlyList`1[T] parameters) [0x00071] in .\Library\PackageCache\jp.hadashikick.vcontainer@1.13.0\Runtime\Internal\ReflectionInjector.cs:51 
+  at VContainer.Internal.InstanceProvider.SpawnInstance (VContainer.IObjectResolver resolver) [0x00000] in .\Library\PackageCache\jp.hadashikick.vcontainer@1.13.0\Runtime\Internal\InstanceProviders\InstanceProvider.cs:21 
+  at VContainer.Container+<>c__DisplayClass12_0.<.ctor>b__1 () [0x00000] in .\Library\PackageCache\jp.hadashikick.vcontainer@1.13.0\Runtime\Container.cs:186 
+  at System.Lazy`1[T].ViaFactory (System.Threading.LazyThreadSafetyMode mode) [0x00043] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+  at System.Lazy`1[T].ExecutionAndPublication (System.LazyHelper executionAndPublication, System.Boolean useDefaultConstructor) [0x00022] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+  at System.Lazy`1[T].CreateValue () [0x00074] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+  at System.Lazy`1[T].get_Value () [0x0000a] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+  at VContainer.Container.Resolve (System.Type type) [0x00010] in .\Library\PackageCache\jp.hadashikick.vcontainer@1.13.0\Runtime\Container.cs:197 
+  at Monster.UseCase.MonsterInteractableUseCaseTest.UpdateNearestInteractableTarget_WithOnePreviousId_AndOneCurrentIds_SameId () [0x000af] in C:\Users\kzgai\actions-runner\_work\mix\mix\Assets\Tests\Monster\UseCase\MonsterInteractableUseCaseTest.cs:288 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 ]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1045" name="UpdateNearestInteractableTarget_WithOnePreviousId_AndTwoCurrentIds_CurrentIdIsNearest" fullname="Monster.UseCase.MonsterInteractableUseCaseTest.UpdateNearestInteractableTarget_WithOnePreviousId_AndTwoCurrentIds_CurrentIdIsNearest" methodname="UpdateNearestInteractableTarget_WithOnePreviousId_AndTwoCurrentIds_CurrentIdIsNearest" classname="Monster.UseCase.MonsterInteractableUseCaseTest" runstate="Runnable" seed="1358594022" result="Failed" label="Error" start-time="2024-10-12 04:56:22Z" end-time="2024-10-12 04:56:22Z" duration="0.002168" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[VContainer.VContainerException : Failed to resolve Monster.UseCase.MonsterInteractableUseCase : No such registration of type: Interactable.Service.InteractableService]]></message>
+                <stack-trace><![CDATA[  at VContainer.Internal.ReflectionInjector.CreateInstance (VContainer.IObjectResolver resolver, System.Collections.Generic.IReadOnlyList`1[T] parameters) [0x00071] in .\Library\PackageCache\jp.hadashikick.vcontainer@1.13.0\Runtime\Internal\ReflectionInjector.cs:51 
+  at VContainer.Internal.InstanceProvider.SpawnInstance (VContainer.IObjectResolver resolver) [0x00000] in .\Library\PackageCache\jp.hadashikick.vcontainer@1.13.0\Runtime\Internal\InstanceProviders\InstanceProvider.cs:21 
+  at VContainer.Container+<>c__DisplayClass12_0.<.ctor>b__1 () [0x00000] in .\Library\PackageCache\jp.hadashikick.vcontainer@1.13.0\Runtime\Container.cs:186 
+  at System.Lazy`1[T].ViaFactory (System.Threading.LazyThreadSafetyMode mode) [0x00043] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+  at System.Lazy`1[T].ExecutionAndPublication (System.LazyHelper executionAndPublication, System.Boolean useDefaultConstructor) [0x00022] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+  at System.Lazy`1[T].CreateValue () [0x00074] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+  at System.Lazy`1[T].get_Value () [0x0000a] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+  at VContainer.Container.Resolve (System.Type type) [0x00010] in .\Library\PackageCache\jp.hadashikick.vcontainer@1.13.0\Runtime\Container.cs:197 
+  at Monster.UseCase.MonsterInteractableUseCaseTest.UpdateNearestInteractableTarget_WithOnePreviousId_AndTwoCurrentIds_CurrentIdIsNearest () [0x000b3] in C:\Users\kzgai\actions-runner\_work\mix\mix\Assets\Tests\Monster\UseCase\MonsterInteractableUseCaseTest.cs:86 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 ]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1046" name="UpdateNearestInteractableTarget_WithOnePreviousId_AndTwoCurrentIds_PreviousIdIsNearest" fullname="Monster.UseCase.MonsterInteractableUseCaseTest.UpdateNearestInteractableTarget_WithOnePreviousId_AndTwoCurrentIds_PreviousIdIsNearest" methodname="UpdateNearestInteractableTarget_WithOnePreviousId_AndTwoCurrentIds_PreviousIdIsNearest" classname="Monster.UseCase.MonsterInteractableUseCaseTest" runstate="Runnable" seed="2115786204" result="Failed" label="Error" start-time="2024-10-12 04:56:22Z" end-time="2024-10-12 04:56:22Z" duration="0.002553" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[VContainer.VContainerException : Failed to resolve Monster.UseCase.MonsterInteractableUseCase : No such registration of type: Interactable.Service.InteractableService]]></message>
+                <stack-trace><![CDATA[  at VContainer.Internal.ReflectionInjector.CreateInstance (VContainer.IObjectResolver resolver, System.Collections.Generic.IReadOnlyList`1[T] parameters) [0x00071] in .\Library\PackageCache\jp.hadashikick.vcontainer@1.13.0\Runtime\Internal\ReflectionInjector.cs:51 
+  at VContainer.Internal.InstanceProvider.SpawnInstance (VContainer.IObjectResolver resolver) [0x00000] in .\Library\PackageCache\jp.hadashikick.vcontainer@1.13.0\Runtime\Internal\InstanceProviders\InstanceProvider.cs:21 
+  at VContainer.Container+<>c__DisplayClass12_0.<.ctor>b__1 () [0x00000] in .\Library\PackageCache\jp.hadashikick.vcontainer@1.13.0\Runtime\Container.cs:186 
+  at System.Lazy`1[T].ViaFactory (System.Threading.LazyThreadSafetyMode mode) [0x00043] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+  at System.Lazy`1[T].ExecutionAndPublication (System.LazyHelper executionAndPublication, System.Boolean useDefaultConstructor) [0x00022] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+  at System.Lazy`1[T].CreateValue () [0x00074] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+  at System.Lazy`1[T].get_Value () [0x0000a] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+  at VContainer.Container.Resolve (System.Type type) [0x00010] in .\Library\PackageCache\jp.hadashikick.vcontainer@1.13.0\Runtime\Container.cs:197 
+  at Monster.UseCase.MonsterInteractableUseCaseTest.UpdateNearestInteractableTarget_WithOnePreviousId_AndTwoCurrentIds_PreviousIdIsNearest () [0x000b3] in C:\Users\kzgai\actions-runner\_work\mix\mix\Assets\Tests\Monster\UseCase\MonsterInteractableUseCaseTest.cs:115 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 ]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1047" name="UpdateNearestInteractableTarget_WithTwoPreviousIds_AndOneCurrentId" fullname="Monster.UseCase.MonsterInteractableUseCaseTest.UpdateNearestInteractableTarget_WithTwoPreviousIds_AndOneCurrentId" methodname="UpdateNearestInteractableTarget_WithTwoPreviousIds_AndOneCurrentId" classname="Monster.UseCase.MonsterInteractableUseCaseTest" runstate="Runnable" seed="2122304767" result="Failed" label="Error" start-time="2024-10-12 04:56:22Z" end-time="2024-10-12 04:56:22Z" duration="0.002174" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[VContainer.VContainerException : Failed to resolve Monster.UseCase.MonsterInteractableUseCase : No such registration of type: Interactable.Service.InteractableService]]></message>
+                <stack-trace><![CDATA[  at VContainer.Internal.ReflectionInjector.CreateInstance (VContainer.IObjectResolver resolver, System.Collections.Generic.IReadOnlyList`1[T] parameters) [0x00071] in .\Library\PackageCache\jp.hadashikick.vcontainer@1.13.0\Runtime\Internal\ReflectionInjector.cs:51 
+  at VContainer.Internal.InstanceProvider.SpawnInstance (VContainer.IObjectResolver resolver) [0x00000] in .\Library\PackageCache\jp.hadashikick.vcontainer@1.13.0\Runtime\Internal\InstanceProviders\InstanceProvider.cs:21 
+  at VContainer.Container+<>c__DisplayClass12_0.<.ctor>b__1 () [0x00000] in .\Library\PackageCache\jp.hadashikick.vcontainer@1.13.0\Runtime\Container.cs:186 
+  at System.Lazy`1[T].ViaFactory (System.Threading.LazyThreadSafetyMode mode) [0x00043] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+  at System.Lazy`1[T].ExecutionAndPublication (System.LazyHelper executionAndPublication, System.Boolean useDefaultConstructor) [0x00022] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+  at System.Lazy`1[T].CreateValue () [0x00074] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+  at System.Lazy`1[T].get_Value () [0x0000a] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+  at VContainer.Container.Resolve (System.Type type) [0x00010] in .\Library\PackageCache\jp.hadashikick.vcontainer@1.13.0\Runtime\Container.cs:197 
+  at Monster.UseCase.MonsterInteractableUseCaseTest.UpdateNearestInteractableTarget_WithTwoPreviousIds_AndOneCurrentId () [0x000b3] in C:\Users\kzgai\actions-runner\_work\mix\mix\Assets\Tests\Monster\UseCase\MonsterInteractableUseCaseTest.cs:144 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 ]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1048" name="UpdateNearestInteractableTarget_WithTwoPreviousIds_AndOneCurrentId_ThenTwoPreviousIds" fullname="Monster.UseCase.MonsterInteractableUseCaseTest.UpdateNearestInteractableTarget_WithTwoPreviousIds_AndOneCurrentId_ThenTwoPreviousIds" methodname="UpdateNearestInteractableTarget_WithTwoPreviousIds_AndOneCurrentId_ThenTwoPreviousIds" classname="Monster.UseCase.MonsterInteractableUseCaseTest" runstate="Runnable" seed="596453723" result="Failed" label="Error" start-time="2024-10-12 04:56:22Z" end-time="2024-10-12 04:56:22Z" duration="0.002522" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[VContainer.VContainerException : Failed to resolve Monster.UseCase.MonsterInteractableUseCase : No such registration of type: Interactable.Service.InteractableService]]></message>
+                <stack-trace><![CDATA[  at VContainer.Internal.ReflectionInjector.CreateInstance (VContainer.IObjectResolver resolver, System.Collections.Generic.IReadOnlyList`1[T] parameters) [0x00071] in .\Library\PackageCache\jp.hadashikick.vcontainer@1.13.0\Runtime\Internal\ReflectionInjector.cs:51 
+  at VContainer.Internal.InstanceProvider.SpawnInstance (VContainer.IObjectResolver resolver) [0x00000] in .\Library\PackageCache\jp.hadashikick.vcontainer@1.13.0\Runtime\Internal\InstanceProviders\InstanceProvider.cs:21 
+  at VContainer.Container+<>c__DisplayClass12_0.<.ctor>b__1 () [0x00000] in .\Library\PackageCache\jp.hadashikick.vcontainer@1.13.0\Runtime\Container.cs:186 
+  at System.Lazy`1[T].ViaFactory (System.Threading.LazyThreadSafetyMode mode) [0x00043] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+  at System.Lazy`1[T].ExecutionAndPublication (System.LazyHelper executionAndPublication, System.Boolean useDefaultConstructor) [0x00022] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+  at System.Lazy`1[T].CreateValue () [0x00074] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+  at System.Lazy`1[T].get_Value () [0x0000a] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+  at VContainer.Container.Resolve (System.Type type) [0x00010] in .\Library\PackageCache\jp.hadashikick.vcontainer@1.13.0\Runtime\Container.cs:197 
+  at Monster.UseCase.MonsterInteractableUseCaseTest.UpdateNearestInteractableTarget_WithTwoPreviousIds_AndOneCurrentId_ThenTwoPreviousIds () [0x000b3] in C:\Users\kzgai\actions-runner\_work\mix\mix\Assets\Tests\Monster\UseCase\MonsterInteractableUseCaseTest.cs:173 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 ]]></stack-trace>
+              </failure>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestSuite" id="1076" name="Tests" fullname="Tests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2024-10-12 04:56:22Z" end-time="2024-10-12 04:56:26Z" duration="3.516101" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1077" name="Editor" fullname="Tests.Editor" runstate="Runnable" testcasecount="7" result="Passed" start-time="2024-10-12 04:56:22Z" end-time="2024-10-12 04:56:26Z" duration="3.514500" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1063" name="CsvUtilityTests" fullname="Tests.Editor.CsvUtilityTests" classname="Tests.Editor.CsvUtilityTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2024-10-12 04:56:22Z" end-time="2024-10-12 04:56:26Z" duration="3.508955" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1064" name="GenerateAssets_ShouldCreateAssetsFromCsv" fullname="Tests.Editor.CsvUtilityTests.GenerateAssets_ShouldCreateAssetsFromCsv" methodname="GenerateAssets_ShouldCreateAssetsFromCsv" classname="Tests.Editor.CsvUtilityTests" runstate="Runnable" seed="1120993251" result="Passed" start-time="2024-10-12 04:56:22Z" end-time="2024-10-12 04:56:24Z" duration="1.760356" asserts="0">
+              <properties />
+              <output><![CDATA[CSV Import completed.
+]]></output>
+            </test-case>
+            <test-case id="1065" name="GenerateEnum_ShouldCreateEnumFile" fullname="Tests.Editor.CsvUtilityTests.GenerateEnum_ShouldCreateEnumFile" methodname="GenerateEnum_ShouldCreateEnumFile" classname="Tests.Editor.CsvUtilityTests" runstate="Runnable" seed="1502272153" result="Passed" start-time="2024-10-12 04:56:24Z" end-time="2024-10-12 04:56:26Z" duration="1.529945" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1066" name="GenerateEnum_ShouldHandleDuplicateValues" fullname="Tests.Editor.CsvUtilityTests.GenerateEnum_ShouldHandleDuplicateValues" methodname="GenerateEnum_ShouldHandleDuplicateValues" classname="Tests.Editor.CsvUtilityTests" runstate="Runnable" seed="1210284471" result="Passed" start-time="2024-10-12 04:56:26Z" end-time="2024-10-12 04:56:26Z" duration="0.041810" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1069" name="ParseCsv_GetItemSpecDefinition_ShouldHandleEmptyCells" fullname="Tests.Editor.CsvUtilityTests.ParseCsv_GetItemSpecDefinition_ShouldHandleEmptyCells" methodname="ParseCsv_GetItemSpecDefinition_ShouldHandleEmptyCells" classname="Tests.Editor.CsvUtilityTests" runstate="Runnable" seed="515915603" result="Passed" start-time="2024-10-12 04:56:26Z" end-time="2024-10-12 04:56:26Z" duration="0.044346" asserts="0">
+              <properties />
+              <output><![CDATA[Error parsing line 2: ,コウモリの羽,,2,true;true;true;true,,Junk,1,0
+]]></output>
+            </test-case>
+            <test-case id="1070" name="ParseCsv_GetItemSpecDefinition_ShouldHandleExcessOrDeficiencyValues" fullname="Tests.Editor.CsvUtilityTests.ParseCsv_GetItemSpecDefinition_ShouldHandleExcessOrDeficiencyValues" methodname="ParseCsv_GetItemSpecDefinition_ShouldHandleExcessOrDeficiencyValues" classname="Tests.Editor.CsvUtilityTests" runstate="Runnable" seed="452956440" result="Passed" start-time="2024-10-12 04:56:26Z" end-time="2024-10-12 04:56:26Z" duration="0.032003" asserts="0">
+              <properties />
+              <output><![CDATA[ArgumentException: Expected 9 CSV values, but got 7. CSV values: BatWinga, コウモリの羽, 2, true;true;true;true, Junk, 1, 0 - CSV values: BatWinga, コウモリの羽, 2, true;true;true;true, Junk, 1, 0
+]]></output>
+            </test-case>
+            <test-case id="1068" name="ParseCsv_GetItemSpecDefinition_ShouldHandleInvalidCsv" fullname="Tests.Editor.CsvUtilityTests.ParseCsv_GetItemSpecDefinition_ShouldHandleInvalidCsv" methodname="ParseCsv_GetItemSpecDefinition_ShouldHandleInvalidCsv" classname="Tests.Editor.CsvUtilityTests" runstate="Runnable" seed="343456391" result="Passed" start-time="2024-10-12 04:56:26Z" end-time="2024-10-12 04:56:26Z" duration="0.062038" asserts="0">
+              <properties />
+              <output><![CDATA[FormatException: Input string was not in a correct format. - CSV values: BatWinguu, コウモリの羽, invalid, 2, true;true;true;true, Assets/Textures/InventoryItem/Bat/Bat wing.png, Junk, 1, 0
+]]></output>
+            </test-case>
+            <test-case id="1067" name="ParseCsv_ShouldParseValidCsv" fullname="Tests.Editor.CsvUtilityTests.ParseCsv_ShouldParseValidCsv" methodname="ParseCsv_ShouldParseValidCsv" classname="Tests.Editor.CsvUtilityTests" runstate="Runnable" seed="1977337286" result="Passed" start-time="2024-10-12 04:56:26Z" end-time="2024-10-12 04:56:26Z" duration="0.031678" asserts="0">
+              <properties />
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
