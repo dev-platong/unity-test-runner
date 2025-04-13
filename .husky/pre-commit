@@ -5,5 +5,5 @@ if [ -t 1 ]; then
   exec < /dev/tty
 fi
 
-yarn build
+pnpm run build
 git add dist
