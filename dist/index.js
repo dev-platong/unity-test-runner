@@ -50,7 +50,7 @@ const core_1 = __nccwpck_require__(2298);
 const model_1 = __nccwpck_require__(1359);
 function run() {
     return __awaiter(this, void 0, void 0, function* () {
-        const artifactPath = './results.xml';
+        const artifactPath = process.argv[2] || './results.xml';
         const failedTestCount = yield model_1.ResultsCheck.createCheck(artifactPath);
         if (failedTestCount >= 1) {
             core_1.core.setFailed(`Test(s) Failed! Check '${'checkName'}' for details.`);
